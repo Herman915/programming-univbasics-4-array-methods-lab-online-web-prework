@@ -4,7 +4,6 @@ def using_include(array, element)
 end
 
 def using_sort(array)
-array = ["a","b","c"]
 array.sort
 end
 
@@ -13,9 +12,8 @@ array.reverse
 end
 
 def using_first(array)
-
+array.first
 end
-
 def using_last(array)
 
 end
